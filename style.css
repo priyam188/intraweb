@@ -1,0 +1,82 @@
+/* CSS Reset */
+body{
+    background-color:rgb(161, 55, 10);
+}
+#logo{
+    margin: -15px 44px;
+    margin-top: -8px;
+}
+#logo img{
+    height: 55px;
+    margin: 24px 34px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"";
+    background-color:#553434;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+
+}
+
+
+#navbar{
+    position: relative;
+    height: 56px;
+}
+
+
+#navbar ul li{
+
+  
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 340px;
+    margin-top: -450px;
+    border-radius: 19px;
+    text-decoration:none ;
+   
+
+}
+.item{
+    padding: 25px;
+}
+element.style{
+    margin-left: 688px;
+}
+.h-primary{
+    margin-left: 688px;
+    color: rgb(24, 23, 23);
+}
+#awm{
+    color:azure;
+    font-size:large
+}
+#ump{
+    color: azure;
+    font-size:large;
+}
+#svd{
+    color:azure;
+    font-size:large;
+}
+#pk{
+    height: 235px;
+    margin: 48px 350px;
+
+}
+#sk{
+    height: 235px;
+    margin: 28px 820px;
+    margin-top: -280px;
+
+}
